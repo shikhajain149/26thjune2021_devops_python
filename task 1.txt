@@ -1,0 +1,6 @@
+1. To get the value stored in a given address
+import ctypes
+x=5
+address=id(x)
+ctypes.cast(address,ctypes.py_object).value)
+
