@@ -32,11 +32,12 @@ elif user_input==3:
     print(platform.system())
 elif user_input==4:
     mac = get_mac_address()
-    print(mac.upper())
+    print("MAC address is",mac)
 elif user_input==5:
-    path = os.path.join("C:/Users/32/Desktop/", "Folder")
+    a=input('Enter the name of Directory:')
+    path = os.path.join("C:/Users/32/Desktop/",a)
     os.mkdir(path)
-    print("Directory '% s' created" % "Folder")
+    print("Directory '% s' created" % a)
 elif user_input==6:
     os.system("shutdown /r /t 1")
 elif user_input==7:
