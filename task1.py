@@ -46,5 +46,6 @@ elif user_input==7:
     devices= devices.replace("\r","")
     print(devices)
 elif user_input==8:
-    os.system('practice.py')
-
+    os.system('practice.py
+else 
+   print("Check your input")
